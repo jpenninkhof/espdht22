@@ -24,7 +24,7 @@
 #include "c_types.h"
 #include "user_interface.h"
 #include "gpio.h"
-#include "driver/dht22.h"
+#include "dht22.h"
 
 enum DHTType sensor_type;
 #define sleepms(x) os_delay_us(x*1000);
